@@ -1,8 +1,11 @@
 public class Operadores {
 
     public static void main (String[] args) {
-        int numero = 5;
+       
+        String nomeUm = "ISABELA";
+        String nomeDois = "ISABELA";
 
-        System.out.println(++ numero);
+        System.out.println(nomeUm == nomeDois);
+
     }
 }
