@@ -22,14 +22,14 @@ public class SmartTv {
     }
 
     public void mudarCanal (int novoCanal){
-        canal = novoCanal;
+        this.canal = novoCanal;
     }
 
     public void aumentarCanal(){
-        canal++;
+        this.canal++;
     }
 
     public void diminuirCanal(){
-        canal--;
+        this.canal--;
     }
 }
